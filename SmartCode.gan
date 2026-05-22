@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SmartCode" company="" webLink="http://" view-date="2026-04-01" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3316" locale="en_US">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="-1"/>
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[39]]></timeline>
+        <option id="color.recent"><![CDATA[#ff0000 #333333 #333300 #330033 #ccccff #6666ff #3300cc #3300ff #3333ff #00ccff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="39" uid="429d24be45a94e3c81b76fbc04181a6f" name="SmartCode" color="#ff0000" shape="1,1,0,0,0,1,1,0,0,0,1,1,1,0,0,1" meeting="false" start="2026-05-01" duration="66" complete="0" priority="4" expand="true">
+            <task id="0" uid="fca517ee9a24499c9a93ba1487ab236c" name="Planning &amp; Analysis" color="#ff6666" meeting="false" start="2026-05-01" duration="11" complete="0" expand="true">
+                <depend id="6" type="2" difference="0" hardness="Strong"/>
+                <task id="1" uid="d8265cac149c410bb41a855cf9f57bbb" name="Define goals &amp; stakeholders" color="#ff0066" meeting="false" start="2026-05-01" duration="11" complete="0" expand="true"/>
+                <task id="2" uid="29bacca620f8402a8448ae1a127dc06b" name="Gather system requirements" color="#ff3366" meeting="false" start="2026-05-01" duration="11" complete="0" expand="true"/>
+                <task id="3" uid="6483785f60c94df68ad90ef296f9bfe3" name="Define user flows" color="#ff3366" meeting="false" start="2026-05-01" duration="11" complete="0" expand="true"/>
+                <task id="4" uid="a28d4df548184b51a5a656c26d1408c6" name="Define learning strategy" color="#ff3399" meeting="false" start="2026-05-08" duration="6" complete="0" expand="true"/>
+                <task id="5" uid="fb1cbcca53e64228a9bf2f680076e7af" name="Define gamification &amp; KPIs" color="#ff3366" meeting="false" start="2026-05-08" duration="6" complete="0" expand="true"/>
+            </task>
+            <task id="6" uid="6c58ac6736bb43dc9f77a367b6ecb9e7" name="System Design" color="#339900" meeting="false" start="2026-05-18" duration="5" complete="0" expand="true">
+                <task id="7" uid="e0f19d479a4047d4ae033e01e36b4f83" name="Design system architecture" color="#00cc00" meeting="false" start="2026-05-18" duration="5" complete="0" expand="true"/>
+                <task id="8" uid="6337d7533b3c46d097118b5196c9e3cb" name="Design database structure" color="#66ff00" meeting="false" start="2026-05-18" duration="5" complete="0" expand="true"/>
+                <task id="9" uid="3e48ff3e17c74a88a08fbbe23eb74c8b" name="Design dashboard UI (3 views)" color="#66ff00" meeting="false" start="2026-05-18" duration="5" complete="0" expand="true"/>
+                <task id="10" uid="060ba4a982ec48dda386e24cfb3025a9" name="Design gamification UI" color="#33cc00" meeting="false" start="2026-05-18" duration="5" complete="0" expand="true"/>
+                <task id="11" uid="d550d4c45128417f939d6f30325e496e" name="Design responsive layout" color="#66cc00" meeting="false" start="2026-05-18" duration="5" complete="0" expand="true"/>
+            </task>
+            <task id="12" uid="35bbaf6989594219a49ca6537d266cf7" name="Development" color="#009999" meeting="false" start="2026-05-25" duration="31" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+                <task id="13" uid="be253c2f3b4e4a9b8cb7d4a9e074bc14" name="Authentication &amp; roles" color="#00cccc" meeting="false" start="2026-05-25" duration="11" complete="0" expand="true"/>
+                <task id="14" uid="1685a1cb8bdf48a9b8bf4cc65c5aca88" name="Dashboard system" color="#00cccc" meeting="false" start="2026-06-01" duration="16" complete="0" expand="true"/>
+                <task id="15" uid="dcca04ecfb7d4ec99af073af44b98f23" name="Learning system" color="#00cccc" meeting="false" start="2026-06-01" duration="16" complete="0" expand="true"/>
+                <task id="16" uid="bea9488909ab4d24be3bf9b35efae707" name="Gamification system" color="#00ccff" meeting="false" start="2026-06-08" duration="16" complete="0" expand="true"/>
+                <task id="17" uid="6aa310b5a9304ed59ee282fcf324cb43" name="Group system" color="#00ccff" meeting="false" start="2026-06-08" duration="16" complete="0" expand="true"/>
+                <task id="19" uid="4fb545f0813244ddb6a97521eac62b96" name="Competition system" color="#00ccff" meeting="false" start="2026-06-15" duration="16" complete="0" expand="true"/>
+                <task id="20" uid="8e90f93b64354dda95d97ec7cd08e962" name="Content system" color="#00ccff" meeting="false" start="2026-06-08" duration="21" complete="0" expand="true"/>
+            </task>
+            <task id="21" uid="0cebb862ddef4b5887283c4d97e15031" name="Content Creation" color="#3333ff" meeting="false" start="2026-06-02" duration="25" complete="0" expand="true">
+                <task id="23" uid="57805a582b314299bfa424be28d55a43" name="Record videos" color="#3300cc" meeting="false" start="2026-06-02" duration="20" complete="0" expand="true"/>
+                <task id="24" uid="862b35ca57c44e21b1e85f9869e46ab5" name="Create quizzes" color="#3300ff" meeting="false" start="2026-06-08" duration="21" complete="0" expand="true"/>
+                <task id="25" uid="aa755951c64449a59f4ae48ab85cee47" name="Prepare materials" color="#3300cc" meeting="false" start="2026-06-08" duration="21" complete="0" expand="true"/>
+            </task>
+            <task id="26" uid="f6598da1e8924246b57b93e05119fc78" name="Testing" color="#6666ff" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2026-07-07" duration="9" complete="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+                <task id="27" uid="6547a865f0cc456faa8d6189fd702d71" name="Test system" color="#6666ff" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2026-07-07" duration="8" complete="0" expand="true"/>
+                <task id="28" uid="32669cffac0347f5924288c1f75945db" name="Fix bugs" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2026-07-09" duration="7" complete="0" expand="true"/>
+                <task id="31" uid="13f92a9f670c4243b6baeecbd107e7cf" name="Improve UI/UX" color="#ccccff" shape="0,1,1,0,1,1,1,1,1,1,1,1,0,1,1,0" meeting="false" start="2026-07-09" duration="7" complete="0" expand="true"/>
+            </task>
+            <task id="32" uid="e74bc8fce7cf4ba9b29c3cde3fcf8ad7" name="Launch" color="#330033" meeting="false" start="2026-07-21" duration="9" complete="0" expand="true">
+                <task id="33" uid="a0758a3e874d4d5a81fc8fb108f752e8" name="Deploy platform" color="#333300" meeting="false" start="2026-07-21" duration="6" complete="0" expand="true"/>
+                <task id="34" uid="69bf53452c0346b08991df30e30d05a3" name="Onboard instructors" color="#330033" meeting="false" start="2026-07-22" duration="7" complete="0" expand="true"/>
+                <task id="35" uid="d326ed0d3e1042da9e921e6316e7a65a" name="Register students" color="#333300" meeting="false" start="2026-07-22" duration="7" complete="0" expand="true"/>
+                <task id="38" uid="9aeb86b42afe4d61bc9fe3f5982f4b93" name="Pilot Cairo schools" color="#333333" meeting="false" start="2026-07-23" duration="7" complete="0" expand="true"/>
+                <task id="37" uid="1a7ecdc8d1734c15a0e0886f3e5bfba4" name="Monitor &amp; feedback" color="#333300" meeting="false" start="2026-07-23" duration="7" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Project Manager" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Frontend " function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Backend" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="UI/Ux" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
